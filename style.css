@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#game {
+width: 1526px;
+height: 740px;
+border: 1px solid black;
+margin: auto;
+overflow: hidden;
+background-color: skyblue;
+}
+
+#wall {
+width: 50px;
+height: 740px;
+background-color: green;
+position: relative;
+left: 1526px;
+animation: wallandhole 3s infinite linear;
+}
+
+@keyframes wallandhole {
+    0% {left:1526px}
+    100% {left:-50px}
+}
+
+#hole {
+width: 50px;
+height: 150px;
+background-color: skyblue;
+position: relative;
+left: 1526px;
+top: -370px;
+animation: wallandhole 3s infinite linear;
+}  
+
+#bird{
+width: 30px;
+height: 30px;
+background-color: red;
+position: absolute;
+border-radius: 50%;
+top: 0px;
+}
