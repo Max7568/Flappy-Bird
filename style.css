@@ -18,10 +18,10 @@ height: 740px;
 background-color: green;
 position: relative;
 left: 1526px;
-animation: wallandhole 3s infinite linear;
+animation: wallAndHole 3s infinite linear;
 }
 
-@keyframes wallandhole {
+@keyframes wallAndHole {
     0% {left:1526px}
     100% {left:-50px}
 }
@@ -33,7 +33,7 @@ background-color: skyblue;
 position: relative;
 left: 1526px;
 top: -370px;
-animation: wallandhole 3s infinite linear;
+animation: wallAndHole 3s infinite linear;
 }  
 
 #bird{
