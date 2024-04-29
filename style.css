@@ -28,11 +28,11 @@ animation: wallAndHole 3s infinite linear;
 
 #hole {
 width: 50px;
-height: 150px;
+height: 200px;
 background-color: skyblue;
 position: relative;
 left: 1526px;
-top: -370px;
+top: -480px;
 animation: wallAndHole 3s infinite linear;
 }  
 
@@ -42,6 +42,6 @@ height: 30px;
 background-color: red;
 position: absolute;
 border-radius: 50%;
-top: 0px;
+top: 50px;
 left: 300px;
 }
