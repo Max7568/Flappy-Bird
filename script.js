@@ -1,9 +1,11 @@
-let jumping = 0
+let jumping = 0;
+let counter = 0;
 
 function randomHeight() {
      const random = -((Math.random() * 590) + 150);
 
      hole.style.top = random + "px";
+     counter++
  }
 
  hole.addEventListener('animationiteration', randomHeight);
