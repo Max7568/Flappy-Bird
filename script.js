@@ -18,7 +18,7 @@ function randomHeight() {
     };
     let wallLeft = parseInt(window.getComputedStyle(wall).getPropertyValue("left"));
     let holeTop = parseInt(window.getComputedStyle(hole).getPropertyValue("top"));
-  let cTop = -(500 - birdTop);
+  let cTop = -(400 - birdTop);
   if((birdTop>480)||((wallLeft<20)&&(wallLeft>-50)&&((cTop<holeTop)||(cTop>holeTop+130)))) {
     alert("Game over. Score: "+counter);
     bird.style.top = 100 + "px";
@@ -49,16 +49,3 @@ function randomHeight() {
     },10);
 
   }
-
-//   // if (bird dotyka hole)
-// dodaj punkt
-
-
-
-//   // else if (bird dotyka wall)
-//   alert("GAME OVER")
-  
-  
-  
-  
-  
